@@ -1,12 +1,12 @@
 # MAPF Algorithm selection - documentation #
 
 1. [ Solved MAPF problems data preparation ](#Dataset)
-2. [ MAPF feature extraction ](#Feature Extraction)
+2. [ MAPF feature extraction ](#feature-extraction)
 3. [ Experiments configuration ](#Configuration)
-4. [ Train models ](#Train and evaluate algorithm selection models)
-5. [ Deeper Analysis ](#Deeper Analysis)
+4. [ Train models ](#train-and-evaluate-algorithm-selection-models)
+5. [ Deeper Analysis ](#deeper-analysis)
 
-## Dataset
+### Dataset
 You can either use our solved MAPF problems dataset, or create your own custom dataset.
 
 ### Solved MAPF problems dataset ###
@@ -25,7 +25,7 @@ The data about the solved MAPF problems should contain the following attributes 
 4. Scenario type (i.e. even/random)
 3. [ALG] Runtime (i.e. CBS-H Runtime)
 
-You are advised to use this repository to solve your MAPF problems. See the relevant [documentation](https://github.com/OmriKaduri/MAPF-Classification/blob/master/README.md#how-to-run-solve-mapf-problems) for using our solvers.
+You are advised to use this repository to solve your MAPF problems. See the relevant [documentation](https://github.com/OmriKaduri/mapf-solvers#how-to-run-solve-mapf-problems) for using our solvers.
 Yet, you can solve with any other implementation, and provide the attributes above.
 
 #### Joining experiments ####
@@ -102,8 +102,8 @@ xgb_reg.train_cv(X_train,
 reg_preds = xgb_reg.predict(X_test, y_test)
 ```
 
-You can see more examples of training XGBoost models at [main.py file](https://github.com/OmriKaduri/MAPF-Classification/blob/master/classification/src/main.py).
-For CNN models, check [main-cnn.py file](https://github.com/OmriKaduri/MAPF-Classification/blob/master/classification/src/main-cnn.py).
+You can see more examples of training XGBoost models at [main.py file](https://github.com/OmriKaduri/MAPF-selection/blob/master/src/main.py).
+For CNN models, check [main-cnn.py file](https://github.com/OmriKaduri/MAPF-selection/blob/master/src/main-cnn.py).
 
 *CNN Model* weights can be found. 
 
