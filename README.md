@@ -13,7 +13,7 @@ You can either use our solved MAPF problems dataset, or create your own custom d
 We solved more then 200,000 MAPF problems with 5 different MAPF solvers. 
 Specifically, we solved the classical [grid-based MAPF benchmark](https://www.movingai.com/benchmarks/mapf.html) problems, 
 and our suggested extension to it.
-Both benchmarks data (with features for algorithm selection) can be found [here](https://www.movingai.com/benchmarks/mapf.html).
+Both benchmarks data (with features for algorithm selection) can be found [here](https://drive.google.com/drive/folders/13ziLw3PJzGeNGARTrgGXzRySMQh-yOQF?usp=sharing).
  
 ### Custom MAPF problems dataset ###
 Read this section if you choose to create your own solved MAPF dataset (with different solvers/problems). 
