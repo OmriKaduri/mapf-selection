@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0610f77-0a4b-44bd-8265-132505150ecd" name="132.72.67.179">
+        <fileTransfer rootFolder="/home/local/BGU-USERS/kaduro/classification" accessType="SFTP" host="132.72.67.179" port="22" sshConfigId="d121d8bd-1f95-4dd1-af13-7ccb2dd871fa" sshConfig="kaduro@132.72.67.179:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

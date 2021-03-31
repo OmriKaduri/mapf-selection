@@ -1,0 +1,16 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-tight-to-tight,901,63.59,17.47
+icts Runtime-tight-to-tight,396,65.34,6.11
+epea Runtime-tight-to-tight,399,63.94,11.74
+sat Runtime-tight-to-tight,2097,50.23,0.89
+cbsh-c Runtime-tight-to-tight,1179,62.01,51.69
+lazycbs Runtime-tight-to-tight,75,93.55,29.57
+Optimal Oracle-tight-to-tight,49,100,100
+XGBoost Regression-tight-to-tight-tight-to-tight,146,87.29,33.47
+XGBoost Classification-tight-to-tight-tight-to-tight,156,85.36,45.18
+XGBoost Coverage-tight-to-tight-tight-to-tight,123,90.48,40.83
+Cost-Sensitive Coverage-tight-to-tight-tight-to-tight,134,89.37,53.11
+CNN Regression-tight-to-tight-tight-to-tight,75,93.55,29.57
+CNN Classification-tight-to-tight-tight-to-tight,304,71.47,42.41
+CNN Coverage-tight-to-tight-tight-to-tight,279,79.75,18.87
+CNN Cost Sensitive-tight-to-tight-tight-to-tight,1155,64.65,48.51

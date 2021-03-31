@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-empty,18016,66.18,19.54
+icts Runtime-empty,26857,45.26,6.41
+epea Runtime-empty,20969,55.96,13.64
+sat Runtime-empty,24664,52.24,0.3
+cbsh-c Runtime-empty,15346,78.28,23.85
+lazycbs Runtime-empty,1867,99.35,55.81
+Best-at-grid-by-norm-cov baseline-empty,1867,99.35,55.81
+Best-at-grid-by-norm-acc baseline-empty,1867,99.35,55.81
+Optimal Oracle-empty,1479,100,100
+XGBoost Regression-empty-empty,2237,98.59,61.19
+XGBoost Classification-empty-empty,2091,98.62,73.66
+XGBoost Coverage-empty-empty,1878,99.36,54.83
+Cost-Sensitive Coverage-empty-empty,2101,98.57,73.57
+CNN Regression-empty-empty,2046,99.13,56.1
+CNN Classification-empty-empty,2132,96.86,71.77
+CNN Coverage-empty-empty,3773,99.39,38.04
+CNN Cost Sensitive-empty-empty,1933,99.39,69.55

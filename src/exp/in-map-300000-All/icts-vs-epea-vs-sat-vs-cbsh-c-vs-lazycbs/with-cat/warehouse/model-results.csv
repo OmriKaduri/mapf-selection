@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-warehouse,30958,66.64,20.04
+icts Runtime-warehouse,39478,49.52,9.34
+epea Runtime-warehouse,32757,59.15,18.82
+sat Runtime-warehouse,43707,51.57,0.37
+cbsh-c Runtime-warehouse,27714,73.07,31.87
+lazycbs Runtime-warehouse,11770,99.11,39.6
+Best-at-grid-by-norm-cov baseline-warehouse,11770,99.11,39.6
+Best-at-grid-by-norm-acc baseline-warehouse,17897,87.12,43.66
+Optimal Oracle-warehouse,8007,100,100
+XGBoost Regression-warehouse-warehouse,11072,97.83,50.64
+XGBoost Classification-warehouse-warehouse,11821,96.7,61.66
+XGBoost Coverage-warehouse-warehouse,10785,99.31,42.83
+Cost-Sensitive Coverage-warehouse-warehouse,11968,96.06,62.08
+CNN Regression-warehouse-warehouse,10847,98.63,51.28
+CNN Classification-warehouse-warehouse,13065,94.91,62.47
+CNN Coverage-warehouse-warehouse,12199,99.13,41.21
+CNN Cost Sensitive-warehouse-warehouse,12597,96.56,53.1

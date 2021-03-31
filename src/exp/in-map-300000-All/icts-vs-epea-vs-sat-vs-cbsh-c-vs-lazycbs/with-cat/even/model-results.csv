@@ -1,0 +1,20 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-even,53057,64.1,20.07
+icts Runtime-even,65511,49.89,3.13
+epea Runtime-even,55518,55.26,8.61
+sat Runtime-even,68126,57.58,2.17
+cbsh-c Runtime-even,58204,66.49,45.2
+lazycbs Runtime-even,17755,91.64,40.88
+Best-at-grid-by-norm-cov baseline-even,14758,97.43,49.98
+Best-at-grid-by-norm-acc baseline-even,19046,91.53,61.77
+Best-at-maptype-by-norm-cov baseline-even,17755,91.64,40.88
+Best-at-maptype-by-norm-acc baseline-even,20674,85.87,58
+Optimal Oracle-even,10608,100,100
+XGBoost Regression-even-even,14531,97.82,55.72
+XGBoost Classification-even-even,15629,96.94,77.16
+XGBoost Coverage-even-even,14616,98.02,51.81
+Cost-Sensitive Coverage-even-even,15967,96.5,77.96
+CNN Regression-even-even,15509,97.64,57.96
+CNN Classification-even-even,16099,95.94,65.6
+CNN Coverage-even-even,14768,97.69,53.87
+CNN Cost Sensitive-even-even,18921,91.69,73.03

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="opc@132.145.146.22:22 key">
+    <serverData>
+      <paths name="opc@132.145.146.22:22 key">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/opc/deep-mapf" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/opc/deep-mapf/nd_mapf" local="$PROJECT_DIR$/../src/nd_mapf" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

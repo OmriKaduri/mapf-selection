@@ -1,0 +1,20 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-outside-in,6738,62.27,20.39
+icts Runtime-outside-in,7676,51.1,5.55
+epea Runtime-outside-in,7206,53.85,11.55
+sat Runtime-outside-in,7838,58.47,3.65
+cbsh-c Runtime-outside-in,8584,55.5,41.05
+lazycbs Runtime-outside-in,2292,88.56,38.2
+Best-at-grid-by-norm-cov baseline-outside-in,2556,91.4,44.76
+Best-at-grid-by-norm-acc baseline-outside-in,3778,82.15,46.2
+Best-at-maptype-by-norm-cov baseline-outside-in,2335,90.43,37.61
+Best-at-maptype-by-norm-acc baseline-outside-in,3560,77.03,48.72
+Optimal Oracle-outside-in,1294,100,100
+XGBoost Regression-outside-in-outside-in,2793,89.28,49.17
+XGBoost Classification-outside-in-outside-in,3159,85.72,63.56
+XGBoost Coverage-outside-in-outside-in,2547,91.13,45.52
+Cost-Sensitive Coverage-outside-in-outside-in,3207,83.82,60.88
+CNN Regression-outside-in-outside-in,2292,88.56,38.2
+CNN Classification-outside-in-outside-in,3317,81.19,46.4
+CNN Coverage-outside-in-outside-in,2518,90.15,42.07
+CNN Cost Sensitive-outside-in-outside-in,2551,85.88,46.56

@@ -1,0 +1,46 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy,,
+Random baseline,106891,67.32,20.08,,
+icts Runtime,145718,49.52,4.1,,
+epea Runtime,124924,54.7,9.34,,
+sat Runtime,149499,57.41,2,,
+cbsh-c Runtime,76634,83.59,47.08,,
+lazycbs Runtime,36236,92.29,37.48,,
+Best-at-grid-by-norm-cov baseline,29357,97.62,49.2,,
+Best-at-grid-by-norm-acc baseline,38852,93.13,60.5,,
+Best-at-maptype-by-norm-cov baseline,33525,93.95,51.44,,
+Best-at-maptype-by-norm-acc baseline,34431,92.74,57.66,,
+Optimal Oracle,18120,100,100,,
+Cost-Sensitive Coverage,29450,96.52,74.01,,
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy,,Written in Table 4.1 in Thesis
+Random baseline,106908,67.31,20.12,,
+icts Runtime,145718,49.52,4.1,,
+epea Runtime,124924,54.7,9.34,,
+sat Runtime,149499,57.41,2,,
+cbsh-c Runtime,76634,83.59,47.08,,
+lazycbs Runtime,36236,92.29,37.48,,
+Best-at-grid-by-norm-cov baseline,29357,97.62,49.2,,
+Best-at-grid-by-norm-acc baseline,38852,93.13,60.5,,
+Best-at-maptype-by-norm-cov baseline,33525,93.95,51.44,,
+Best-at-maptype-by-norm-acc baseline,34431,92.74,57.66,,
+Optimal Oracle,18120,100,100,,
+XGBoost Regression,26603,98.18,54.27,,
+XGBoost Classification,28325,97.22,73.23,,
+XGBoost Coverage,27880,98.19,48.75,,
+Cost-Sensitive Coverage,29450,96.52,74.01,,
+CNN Regression,27354,97.81,54.13,,
+CNN Classification,29493,96.8,71.61,,
+CNN Coverage,34079,97.02,55.95,,
+CNN Cost Sensitive,30581,96.79,68.74,,
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,106555,67.63,20.29
+icts Runtime,145718,49.52,4.10
+epea Runtime,124924,54.70,9.34
+sat Runtime,149499,57.41,2.00
+cbsh-c Runtime,76634,83.59,47.08
+lazycbs Runtime,36236,92.29,37.48
+Best-at-grid-by-norm-cov baseline,29357,97.62,49.20
+Best-at-grid-by-norm-acc baseline,38852,93.13,60.50
+Best-at-maptype-by-norm-cov baseline,33525,93.95,51.44
+Best-at-maptype-by-norm-acc baseline,34431,92.74,57.66
+Optimal Oracle,18120,100.00,100.00
+Cost-Sensitive Coverage,29597,96.50,73.99

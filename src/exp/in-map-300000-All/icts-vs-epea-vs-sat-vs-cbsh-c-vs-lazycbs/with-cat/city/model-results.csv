@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-city,13488,71.36,20.22
+icts Runtime-city,15271,63.07,5.22
+epea Runtime-city,12978,67.88,21.08
+sat Runtime-city,22987,46.08,0
+cbsh-c Runtime-city,7981,87.03,60.87
+lazycbs Runtime-city,8160,93.73,12.83
+Best-at-grid-by-norm-cov baseline-city,6660,95.89,31.09
+Best-at-grid-by-norm-acc baseline-city,7981,87.03,60.87
+Optimal Oracle-city,3053,100,100
+XGBoost Regression-city-city,6468,92.85,41.38
+XGBoost Classification-city-city,6954,90.76,64.3
+XGBoost Coverage-city-city,6561,94.48,31.02
+Cost-Sensitive Coverage-city-city,7023,90.54,64.05
+CNN Regression-city-city,6447,94.42,40.49
+CNN Classification-city-city,6271,92.51,61.46
+CNN Coverage-city-city,5893,95.56,45.18
+CNN Cost Sensitive-city-city,5954,94.5,62.5

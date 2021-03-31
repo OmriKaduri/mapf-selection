@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="132.72.67.179">
+    <serverData>
+      <paths name="132.72.67.179">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/data" />
+            <excludedPath local="true" path="$PROJECT_DIR$/graph" />
+            <excludedPath local="true" path="$PROJECT_DIR$/notebooks" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/mapf_images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/models/nn-classification" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/models/regression" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/models/coverage" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/models/cost-sensitive" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/models/classification" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/lightning_logs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/plots" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/nd_mapf" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/Alldata-labelled-custom.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/AllData-labelled-partial_problems.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/AllData-labelled-partial_problems_withoutSAT.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/Alldata-labelled-random.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/Alldata-labelled-custom-with-features.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/MovingAIData-labelled-with-features.7z" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/src.7z" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/AllData-labelled-with-features.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/AllData-labelled-with-features - without cell.csv" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/AllData-labelled.csv" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="kaduro@132.72.67.179:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

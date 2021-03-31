@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-maze,2953,69.83,20.34
+icts Runtime-maze,4322,52.93,2.7
+epea Runtime-maze,4367,52.66,8.04
+sat Runtime-maze,2833,77.02,12.48
+cbsh-c Runtime-maze,2177,79.82,44.53
+lazycbs Runtime-maze,1093,83.74,32.26
+Best-at-grid-by-norm-cov baseline-maze,1104,92.43,46.55
+Best-at-grid-by-norm-acc baseline-maze,1145,89.42,56.42
+Optimal Oracle-maze,407,100,100
+XGBoost Regression-maze-maze,843,96.36,44.21
+XGBoost Classification-maze-maze,865,95.19,66.4
+XGBoost Coverage-maze-maze,901,96.34,33.62
+Cost-Sensitive Coverage-maze-maze,923,93.26,66.2
+CNN Regression-maze-maze,994,88.96,35.29
+CNN Classification-maze-maze,865,94.42,66.72
+CNN Coverage-maze-maze,826,96.97,49.1
+CNN Cost Sensitive-maze-maze,935,92.55,66.74

@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-cross-sides,3896,63.74,19.36
+icts Runtime-cross-sides,3939,60,4.04
+epea Runtime-cross-sides,3683,63.67,16.44
+sat Runtime-cross-sides,4886,58.19,0.98
+cbsh-c Runtime-cross-sides,5463,49.84,39.69
+lazycbs Runtime-cross-sides,1625,88.35,38.85
+Best-at-maptype-by-norm-cov baseline-cross-sides,1403,89.02,39.14
+Best-at-maptype-by-norm-acc baseline-cross-sides,2945,69.49,44.24
+Optimal Oracle-cross-sides,793,100,100
+XGBoost Regression-cross-sides-cross-sides,1693,87.34,44.21
+XGBoost Classification-cross-sides-cross-sides,2211,82.75,67.83
+XGBoost Coverage-cross-sides-cross-sides,1324,92.91,42.91
+Cost-Sensitive Coverage-cross-sides-cross-sides,1983,84.96,67.57
+CNN Regression-cross-sides-cross-sides,1625,88.35,38.85
+CNN Classification-cross-sides-cross-sides,2769,78.41,47.25
+CNN Coverage-cross-sides-cross-sides,1245,94.54,42.56
+CNN Cost Sensitive-cross-sides-cross-sides,2327,82.53,47.48

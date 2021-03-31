@@ -1,0 +1,16 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-inside-out,6935,60.46,20.87
+icts Runtime-inside-out,7564,54.01,6.72
+epea Runtime-inside-out,5113,70.58,31.44
+sat Runtime-inside-out,8983,45.94,0.04
+cbsh-c Runtime-inside-out,10485,36.52,23.74
+lazycbs Runtime-inside-out,2679,93.37,38.05
+Optimal Oracle-inside-out,1385,100,100
+XGBoost Regression-inside-out-inside-out,2888,87.69,40.77
+XGBoost Classification-inside-out-inside-out,3183,86.51,51.75
+XGBoost Coverage-inside-out-inside-out,2681,93.37,38.05
+Cost-Sensitive Coverage-inside-out-inside-out,3242,87.53,52.29
+CNN Regression-inside-out-inside-out,2679,93.37,38.05
+CNN Classification-inside-out-inside-out,7176,63.68,22.76
+CNN Coverage-inside-out-inside-out,4382,78.28,24.44
+CNN Cost Sensitive-inside-out-inside-out,2679,93.37,38.05

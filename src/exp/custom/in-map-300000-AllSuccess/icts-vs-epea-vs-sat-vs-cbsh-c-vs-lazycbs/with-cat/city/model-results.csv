@@ -1,0 +1,14 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-city,128,100.00,20.38
+icts Runtime-city,20,100.00,5.48
+epea Runtime-city,15,100.00,12.76
+sat Runtime-city,600,100.00,0.00
+cbsh-c Runtime-city,24,100.00,81.73
+lazycbs Runtime-city,95,100.00,0.03
+Best-at-grid-by-norm-cov baseline-city,20,100.00,5.48
+Best-at-grid-by-norm-acc baseline-city,24,100.00,81.73
+Optimal Oracle-city,4,100.00,100.00
+XGBoost Regression-city-city,17,100.00,68.34
+XGBoost Classification-city-city,17,100.00,81.17
+XGBoost Coverage-city-city,20,100.00,5.48
+Cost-Sensitive Coverage-city-city,17,100.00,81.58

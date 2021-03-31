@@ -1,0 +1,16 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-swap-sides,5842,63.21,19.75
+icts Runtime-swap-sides,6280,57.88,6.58
+epea Runtime-swap-sides,5123,65.52,19.92
+sat Runtime-swap-sides,7595,54.48,0.06
+cbsh-c Runtime-swap-sides,8089,42.71,30.54
+lazycbs Runtime-swap-sides,2103,96.96,42.9
+Optimal Oracle-swap-sides,1585,100,100
+XGBoost Regression-swap-sides-swap-sides,2430,88.05,40.24
+XGBoost Classification-swap-sides-swap-sides,2272,92.96,56.79
+XGBoost Coverage-swap-sides-swap-sides,2096,96.96,45.35
+Cost-Sensitive Coverage-swap-sides-swap-sides,2497,89.38,57.31
+CNN Regression-swap-sides-swap-sides,2103,96.96,42.9
+CNN Classification-swap-sides-swap-sides,3620,84.77,39.24
+CNN Coverage-swap-sides-swap-sides,3303,83.88,32.33
+CNN Cost Sensitive-swap-sides-swap-sides,4653,69.17,42.1

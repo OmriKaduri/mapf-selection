@@ -1,0 +1,16 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,2967,100.00,20.12
+icts Runtime,1618,100.00,9.00
+epea Runtime,1530,100.00,15.24
+sat Runtime,7277,100.00,0.31
+cbsh-c Runtime,2594,100.00,69.03
+lazycbs Runtime,1866,100.00,6.42
+Best-at-grid-by-norm-cov baseline,1618,100.00,9.00
+Best-at-grid-by-norm-acc baseline,2518,100.00,70.68
+Best-at-maptype-by-norm-cov baseline,1618,100.00,9.00
+Best-at-maptype-by-norm-acc baseline,2594,100.00,69.03
+Optimal Oracle,361,100.00,100.00
+XGBoost Regression,765,100.00,44.37
+XGBoost Classification,1030,100.00,74.52
+XGBoost Coverage,1618,100.00,9.00
+Cost-Sensitive Coverage,998,100.00,73.18

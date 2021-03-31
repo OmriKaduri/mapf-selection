@@ -1,0 +1,20 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-swap-sides,7293,61.9,18.94
+icts Runtime-swap-sides,8158,53.96,4.47
+epea Runtime-swap-sides,6885,58.27,10.2
+sat Runtime-swap-sides,9069,58.58,4.17
+cbsh-c Runtime-swap-sides,9322,55.63,42.58
+lazycbs Runtime-swap-sides,2510,88.96,38.58
+Best-at-grid-by-norm-cov baseline-swap-sides,2909,89.76,43.66
+Best-at-grid-by-norm-acc baseline-swap-sides,3529,85,51.63
+Best-at-maptype-by-norm-cov baseline-swap-sides,2768,88.98,39.45
+Best-at-maptype-by-norm-acc baseline-swap-sides,3919,79.54,54.52
+Optimal Oracle-swap-sides,1527,100,100
+XGBoost Regression-swap-sides-swap-sides,2815,90.41,53.87
+XGBoost Classification-swap-sides-swap-sides,3045,87.75,69.37
+XGBoost Coverage-swap-sides-swap-sides,2509,91.37,48.86
+Cost-Sensitive Coverage-swap-sides-swap-sides,3031,86.07,66.22
+CNN Regression-swap-sides-swap-sides,2510,88.96,38.58
+CNN Classification-swap-sides-swap-sides,3841,80.94,49.62
+CNN Coverage-swap-sides-swap-sides,2442,90.4,43.12
+CNN Cost Sensitive-swap-sides-swap-sides,3724,81.42,47.16

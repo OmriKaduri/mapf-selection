@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="132.145.147.14" id="79827a46-ea72-4fff-a714-40af7133d36b" keyPath="C:\Users\omri\.ssh\oracle_id_rsa" port="22" customName="oracle-mapf-ssh" nameFormat="CUSTOM" username="opc" />
+    </configs>
+  </component>
+</project>

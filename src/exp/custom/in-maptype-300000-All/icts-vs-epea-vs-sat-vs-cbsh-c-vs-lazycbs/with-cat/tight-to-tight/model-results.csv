@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-tight-to-tight,331,70.52,20.03
+icts Runtime-tight-to-tight,392,60.56,3.58
+epea Runtime-tight-to-tight,392,61.24,10.27
+sat Runtime-tight-to-tight,474,65.72,2.65
+cbsh-c Runtime-tight-to-tight,339,77.85,63.97
+lazycbs Runtime-tight-to-tight,152,76.85,19.53
+Best-at-maptype-by-norm-cov baseline-tight-to-tight,180,79.45,44.39
+Best-at-maptype-by-norm-acc baseline-tight-to-tight,299,79.02,61.36
+Optimal Oracle-tight-to-tight,42,100,100
+XGBoost Regression-tight-to-tight-tight-to-tight,120,89.49,50.04
+XGBoost Classification-tight-to-tight-tight-to-tight,155,88.78,70.04
+XGBoost Coverage-tight-to-tight-tight-to-tight,73,93.42,60.96
+Cost-Sensitive Coverage-tight-to-tight-tight-to-tight,131,91.89,71.83
+CNN Regression-tight-to-tight-tight-to-tight,152,76.85,19.53
+CNN Classification-tight-to-tight-tight-to-tight,293,80.24,61.39
+CNN Coverage-tight-to-tight-tight-to-tight,188,74.64,18.06
+CNN Cost Sensitive-tight-to-tight-tight-to-tight,301,78.88,61.39

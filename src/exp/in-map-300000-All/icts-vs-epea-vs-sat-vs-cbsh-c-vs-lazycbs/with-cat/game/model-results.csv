@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-game,20236,67.4,20.44
+icts Runtime-game,28230,48.75,2.58
+epea Runtime-game,26226,53.25,3.19
+sat Runtime-game,26463,57.72,0.05
+cbsh-c Runtime-game,8898,91.17,70.11
+lazycbs Runtime-game,11609,85.72,24.07
+Best-at-grid-by-norm-cov baseline-game,6218,98.29,50.11
+Best-at-grid-by-norm-acc baseline-game,8225,92.44,71.91
+Optimal Oracle-game,3880,100,100
+XGBoost Regression-game-game,5789,97.88,56.97
+XGBoost Classification-game-game,6008,97.24,79.07
+XGBoost Coverage-game-game,5903,98.13,57.09
+Cost-Sensitive Coverage-game-game,6245,96.96,78.71
+CNN Regression-game-game,5745,98.34,62.94
+CNN Classification-game-game,5863,98.04,76.61
+CNN Coverage-game-game,6162,98.02,70.86
+CNN Cost Sensitive-game-game,6517,96.54,77.03

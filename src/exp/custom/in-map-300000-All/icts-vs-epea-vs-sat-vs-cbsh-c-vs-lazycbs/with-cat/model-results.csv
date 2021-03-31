@@ -1,0 +1,59 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,31766,63.95,20.15
+icts Runtime,35607,55.26,4.86
+epea Runtime,31154,59.55,13.5
+sat Runtime,40562,56.26,2.22
+cbsh-c Runtime,41580,56,42.47
+lazycbs Runtime,10957,89.76,36.95
+Best-at-grid-by-norm-cov baseline,9757,93.41,44.97
+Best-at-grid-by-norm-acc baseline,16769,81.66,52.91
+Best-at-maptype-by-norm-cov baseline,11149,88.8,39.43
+Best-at-maptype-by-norm-acc baseline,17349,78.22,52.61
+Optimal Oracle,5973,100,100
+XGBoost Regression,10721,92.59,48.63
+XGBoost Classification,13724,88.85,68.9
+XGBoost Coverage,10225,93.64,44.17
+Cost-Sensitive Coverage,13405,88.41,67.42
+CNN Regression,10957,89.76,36.95
+CNN Classification,14814,83.49,53.55
+CNN Coverage,10524,89.87,39.86
+CNN Cost Sensitive,16499,81.06,48.92
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,31977,63.45,19.99
+icts Runtime,35607,55.26,4.86
+epea Runtime,31154,59.55,13.50
+sat Runtime,40562,56.26,2.22
+cbsh-c Runtime,41580,56.00,42.47
+lazycbs Runtime,10957,89.76,36.95
+Best-at-grid-by-norm-cov baseline,9757,93.41,44.97
+Best-at-grid-by-norm-acc baseline,16769,81.66,52.91
+Best-at-maptype-by-norm-cov baseline,11149,88.80,39.43
+Best-at-maptype-by-norm-acc baseline,17349,78.22,52.61
+Optimal Oracle,5973,100.00,100.00
+Cost-Sensitive Coverage,13437,88.31,67.40
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,31819,63.68,19.93
+icts Runtime,35607,55.26,4.86
+epea Runtime,31154,59.55,13.50
+sat Runtime,40562,56.26,2.22
+cbsh-c Runtime,41580,56.00,42.47
+lazycbs Runtime,10957,89.76,36.95
+Best-at-grid-by-norm-cov baseline,9757,93.41,44.97
+Best-at-grid-by-norm-acc baseline,16769,81.66,52.91
+Best-at-maptype-by-norm-cov baseline,11149,88.80,39.43
+Best-at-maptype-by-norm-acc baseline,17349,78.22,52.61
+Optimal Oracle,5973,100.00,100.00
+Cost-Sensitive Coverage,13305,88.60,68.20
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline,31918,63.35,20.33
+icts Runtime,35607,55.26,4.86
+epea Runtime,31154,59.55,13.50
+sat Runtime,40562,56.26,2.22
+cbsh-c Runtime,41580,56.00,42.47
+lazycbs Runtime,10957,89.76,36.95
+Best-at-grid-by-norm-cov baseline,9757,93.41,44.97
+Best-at-grid-by-norm-acc baseline,16769,81.66,52.91
+Best-at-maptype-by-norm-cov baseline,11149,88.80,39.43
+Best-at-maptype-by-norm-acc baseline,17349,78.22,52.61
+Optimal Oracle,5973,100.00,100.00
+Cost-Sensitive Coverage,13437,88.31,67.40

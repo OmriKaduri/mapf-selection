@@ -1,0 +1,18 @@
+Model,Cumsum(minutes),Normalized Coverage,Normalized Accuracy
+Random baseline-room,3302,68.88,18.66
+icts Runtime-room,4830,51.09,1.4
+epea Runtime-room,4901,49.19,5.43
+sat Runtime-room,4295,61.19,0
+cbsh-c Runtime-room,1722,87.59,38.31
+lazycbs Runtime-room,401,98.78,54.85
+Best-at-grid-by-norm-cov baseline-room,401,98.78,54.85
+Best-at-grid-by-norm-acc baseline-room,401,98.78,54.85
+Optimal Oracle-room,275,100,100
+XGBoost Regression-room-room,468,98.44,54.84
+XGBoost Classification-room-room,431,98.43,75.2
+XGBoost Coverage-room-room,409,98.94,53.55
+Cost-Sensitive Coverage-room-room,436,98.51,74.99
+CNN Regression-room-room,401,98.78,62.07
+CNN Classification-room-room,426,98.64,75.19
+CNN Coverage-room-room,521,98.82,48.75
+CNN Cost Sensitive-room-room,462,98.34,74.52
